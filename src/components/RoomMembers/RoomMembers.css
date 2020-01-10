@@ -1,0 +1,115 @@
+.roomMembers {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: #000000;
+    border-radius: 11px;
+    word-break: break-word;
+    font-size: xx-small;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.1);
+    height: 90%;
+    max-width: 370px;
+  }
+  
+  .activeContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50%;
+  }
+  
+  .activeItem {
+    display: flex;
+    align-items: center;
+  }
+  
+  .activeContainer img {
+    padding-left: 10px;
+  }
+  
+  .roomMembers h1 {
+    margin-bottom: 0px;
+  }
+  
+
+
+@media (max-width: 1000px) and (min-width: 100px){
+
+  ::-webkit-scrollbar {
+    display: none;
+    }
+
+      .roomMembers{
+        
+          box-shadow: 0 0 0pt 0pt;
+          position: absolute;
+          text-align: center;
+          background: #ffffff;
+          height: 60px;
+          word-break: break-word;
+          padding: 0px 13px;
+          width: 60%;
+          z-index: 99;
+          margin: 0px 0px 0px 80px;
+          overflow: hidden;
+          border-radius: 0px 0px 20px 20px;
+          top: 0;
+          display: flex;
+          flex-direction: column;
+      }
+
+      .roomMembers:hover{
+        outline: none;
+        box-shadow: 0 0 0pt 2pt #00adff;
+        transition: all 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+      }
+
+      .containerDiv{
+
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        box-sizing: content-box;
+        flex-wrap: wrap;
+      }
+
+      .activeContainer {
+        display: block;
+        align-items: center;
+         margin-bottom: 0; 
+      }
+
+      .activeItem {
+        display: block;
+        align-items: center;
+      }
+
+      .input {
+        border: none;
+        border-radius: 100px 100px 100px 100px;
+        padding: 20px;
+        width: 75%;
+        margin: 0px 0px 20px 20px;
+        font-weight: 900;
+        color: #598cff;
+        box-shadow: 0 0 10px #00000012;
+    }
+
+        .sendButton {
+          background: #ffffff;
+          border: none;
+          outline: none;
+          width: 55px;
+          border-radius: 150px;
+          margin: 0px 10px 20px 5px;
+          box-shadow: 3px 3px 7px 0px #c8c8c8;
+        }
+
+
+
+
+    }   
+
+

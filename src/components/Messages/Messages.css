@@ -1,0 +1,16 @@
+.messages {
+    padding: 5% 0;
+    overflow: auto;
+    flex: auto;
+  }
+
+
+
+
+@media (min-width:100px) and (max-width:1000px){
+  .messages {
+    padding: 2% 0;
+   
+  }
+  
+}
