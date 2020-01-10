@@ -8,7 +8,7 @@ A simplistic, generic chat web application created with React for Front-end and 
 As a user, you will be able to choose username, create a room and let other users join in using the same room name(seperate username). After joining Room members can chat.
 Note: Chats are lost on a refresh of browser, while the user remains in the same room.
 
-##Technology used
+## Technology used
 -   React JS (Front-End)
 -   NODE JS (Backend Environment)
 -   Express (Server)
@@ -16,7 +16,7 @@ Note: Chats are lost on a refresh of browser, while the user remains in the same
 -   Socket.io (Client-Server Communication)
 -   HTML5,CSS3 (Front-end)
 
-##Features
+## Features
 - Clean design.
 - Chats are temporary, lost on a refresh.
 - Use emojis.
@@ -26,7 +26,7 @@ Note: Chats are lost on a refresh of browser, while the user remains in the same
 
 
 
-_As React is ever evolving few warnings could pop up, dont worry, commits are on the way._
+_As React is ever evolving few warnings could pop up, commits are on the way._
 
 Enjoy Just Chat. 
 
