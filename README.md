@@ -1,7 +1,5 @@
 # Just Chat Web App
 
-**[Online Demo](#)**
-
 ## About
 A simplistic, generic chat web application created with React for Front-end and Node.js(Environment), Socket.io(Communication), Express(Server) for Backend.
 
