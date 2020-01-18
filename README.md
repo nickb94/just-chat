@@ -1,18 +1,22 @@
 # Just Chat Web App
 
 ## About
-A simplistic, generic chat web application created with React for Front-end and Node.js(Environment), Socket.io(Communication), Express(Server) for Backend.
+A simplistic chat Webapp created with React for Front-end and Node.js(Environment), Socket.io(Communication), Express(Server) for Backend.
 
-As a user, you will be able to choose username, create a room and let other users join in using the same room name(seperate username). After joining Room members can chat.
-Note: Chats are lost on a refresh of browser, while the user remains in the same room.
+User will be able to choose username, create a room and let other users join in using the same room name(seperate username). After joining Room members can chat in text an emoji.
+
+Note: On a tab refresh , chats are lost, while the user remains in the same room.
 
 ## Technology used
--   React JS (Front-End)
--   NODE JS (Backend Environment)
--   Express (Server)
--   React Router()
--   Socket.io (Client-Server Communication)
--   HTML5,CSS3 (Front-end)
+-   React JS (Front-End).
+-   HTML5,CSS3 (Front-end).
+-   React Router(Library).
+-   react-emoji, query-string(Library).
+-   Socket.io (Client-Server Communication).
+-   Express (Server).
+-   NODE JS (Backend Environment).
+-   Socket.io (Client-Server Communication).
+
 
 ## Features
 - Clean design.
