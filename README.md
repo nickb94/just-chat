@@ -28,7 +28,7 @@ Note: On a tab refresh , chats are lost, while the user remains in the same room
 
 
 
-_As React is ever evolving few warnings could pop up, commits are on the way._
+_As React is ever evolving few warnings could pop up, commits are on the way. Server for this application is on heroku.com, please wait for a few seconds after entering a room as the servers are dormant._
 
 Enjoy Just Chat. 
 
