@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from "react"
 import queryString from "query-string"
+import moment from "moment"
 import io from "socket.io-client"
 import Infobar from "../Infobar/Infobar"
 import Input from "../Input/Input"
@@ -9,10 +10,11 @@ import "./Chat.css";
 
 
 let socket;
-
+const nowdate = moment().format('MMMM Do YYYY, h:mm:ss a');
 //functional component
 const Chat = ({ location }) => {
 //set states
+        const [date, setDate] = useState("");
         const [name ,setName] = useState("");
         const [room ,setRoom] = useState("");
         const [users, setUsers] = useState("");
@@ -37,6 +39,7 @@ const ENDPOINT = "https://just-chat-web.herokuapp.com/";
 //listening on socket 'message' on any change in messages array    
     useEffect(()=>{
             socket.on("message", (message)=> {
+            setDate(nowdate);
             setMessages([...messages, message]);
         });
 
@@ -71,7 +74,7 @@ const ENDPOINT = "https://just-chat-web.herokuapp.com/";
             <RoomMembers users={users} />
             <div className="container">
                 <Infobar room={ room } />
-                <Messages messages={messages} name={name} />
+                <Messages messages={messages} name={name} room={room} date={date} />
                 <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
             </div> 
               
