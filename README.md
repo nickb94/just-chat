@@ -11,7 +11,7 @@ Note: On a tab refresh , chats are lost, while the user remains in the same room
 -   React JS (Front-End).
 -   HTML5,CSS3 (Front-end).
 -   React Router(Library).
--   react-emoji, query-string(Library).
+-   react-emoji, query-string, moment.js(Library).
 -   Socket.io (Client-Server Communication).
 -   Express (Server).
 -   NODE JS (Backend Environment).
