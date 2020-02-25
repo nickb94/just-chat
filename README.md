@@ -15,7 +15,6 @@ Note: On a tab refresh , chats are lost, while the user remains in the same room
 -   Socket.io (Client-Server Communication).
 -   Express (Server).
 -   NODE JS (Backend Environment).
--   Socket.io (Client-Server Communication).
 
 
 ## Features
